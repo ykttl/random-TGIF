@@ -1,0 +1,56 @@
+body {
+	font-size: 18px;
+
+}
+
+
+.container {
+	width: 650px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+button {
+	padding: 8px;
+	border-radius: 4px;
+	font-size: 16px;
+
+}
+
+#time {
+	display: inline-block;
+	font-size: 22px;
+	margin-left: 10px;
+
+}
+
+#result {
+	word-break: break-word;
+	margin-top: 10px;
+
+}
+
+
+@media only screen and (max-width: 375px) {
+  .container{
+
+        width: auto;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (min-width:376px) and (max-width:960px) {
+.container{
+
+        width: auto;
+        padding: 0 20px;
+    }
+
+@media only screen and (min-width: 961px) {
+ .container{
+
+        width: auto;
+        padding: 0 20px;
+    }
+}
